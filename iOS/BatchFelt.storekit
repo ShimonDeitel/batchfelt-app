@@ -1,0 +1,42 @@
+{
+  "identifier": "batchfelt",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchFelt Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchfelt_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Estimate final size shrinkage by wool type and technique.",
+              "displayName": "BatchFelt Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchfelt_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchFelt Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
