@@ -8,14 +8,7 @@ struct Project: Identifiable, Codable, Equatable {
     var finishedSize: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        projectName: String = "Wool Coaster",
-        woolType: String = "Merino",
-        technique: String = "Wet Felting",
-        finishedSize: String = "4",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), projectName: String = "Wool Coaster", woolType: String = "Merino", technique: String = "Wet Felting", finishedSize: String = "4", createdDate: Date = Date()) {
         self.id = id
         self.projectName = projectName
         self.woolType = woolType
@@ -34,14 +27,7 @@ struct BFProEntry: Identifiable, Codable, Equatable {
     var shrinkPercent: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        woolType: String = "Merino",
-        technique: String = "Wet Felting",
-        startSize: String = "6",
-        shrinkPercent: String = "25",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), woolType: String = "Merino", technique: String = "Wet Felting", startSize: String = "6", shrinkPercent: String = "25", createdDate: Date = Date()) {
         self.id = id
         self.woolType = woolType
         self.technique = technique
