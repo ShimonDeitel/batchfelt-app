@@ -175,9 +175,9 @@ struct ProjectFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addProject(draftProjectName, draftWoolType, draftTechnique, draftFinishedSize, isPro: purchases.isPro)
+            store.addProject(projectName: draftProjectName, woolType: draftWoolType, technique: draftTechnique, finishedSize: draftFinishedSize, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateProject(item.id, draftProjectName, draftWoolType, draftTechnique, draftFinishedSize)
+            store.updateProject(item.id, projectName: draftProjectName, woolType: draftWoolType, technique: draftTechnique, finishedSize: draftFinishedSize)
         }
         BFHaptics.success()
         dismiss()
